@@ -1,0 +1,1 @@
+For this project, I will be using my HTML and CSS skills to build a website according to the design provided by TOP.
