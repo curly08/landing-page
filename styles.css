@@ -103,7 +103,7 @@ button {
 
 .boxes {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 40px;
 }
 
@@ -122,4 +122,22 @@ button {
 
 .tertiary-text {
     text-align: center;
+}
+
+.c {
+    background-color: #e5e7eb;
+    padding: 100px 200px 100px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
 }
