@@ -40,6 +40,7 @@ body {
 .header-content {
     display: flex;
     justify-content: space-between;
+    min-height: 300px;
     gap: 30px;
 }
 
@@ -125,8 +126,15 @@ button {
 }
 
 .c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #e5e7eb;
     padding: 100px 200px 100px 200px;
+}
+
+.quote-div {
+    max-width: 800px;
 }
 
 .quote {
@@ -140,6 +148,8 @@ button {
     display: flex;
     justify-content: right;
     font-weight: bold;
+    max-width: 800px;
+
 }
 
 .d {
@@ -155,6 +165,7 @@ button {
     background-color: #3882f6;
     flex: 1;
     border-radius: 8px;
+    max-width: 800px;
 }
 
 .call-content {
