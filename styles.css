@@ -65,7 +65,7 @@ p {
     color: #f9faf8;
 }
 
-.secondary-text {
+.secondary-text, .e {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -177,4 +177,12 @@ button {
     text-align: center;
     border-radius: 6px;
     font-weight: 500;
+}
+
+.e {
+    display: flex;
+    background-color: #1f2937;
+    padding: 30px;
+    justify-content: center;
+    align-content: center;
 }
