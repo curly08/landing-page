@@ -141,3 +141,40 @@ button {
     justify-content: right;
     font-weight: bold;
 }
+
+.d {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 200px;
+}
+
+.call {
+    display: flex;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    flex: 1;
+    border-radius: 8px;
+}
+
+.call-content {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.call-title {
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.diff-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid white;
+    padding: 5px 25px 5px 25px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+}
